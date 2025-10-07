@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Esprima" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="tests\**\*.cs" />
+    <EmbeddedResource Remove="tests\**\*.cs" />
+    <None Remove="tests\**\*" />
+  </ItemGroup>
+
+</Project>

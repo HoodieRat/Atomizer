@@ -1,0 +1,31 @@
+# Dotnet build artifacts
+bin/
+obj/
+
+# VS/IDE
+.vs/
+*.user
+*.suo
+.vscode/
+
+# AtomizeJs runtime outputs
+out/
+out_cjs/
+output/
+output_debug/
+
+# Analysis and planning artifacts
+facts/
+plans/
+
+# Local data/config (keep template but ignore local state)
+data/appstate.json
+
+# Backups and generated shims/bridges at repo root
+*_old.js
+*_old_*.js
+*.js.atomized.js
+*.cjs
+
+# Logs
+*.log

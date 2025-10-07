@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>AtomizeJs Report</title>
+  <style>
+    body { font-family: sans-serif; margin: 2rem; }
+    table { border-collapse: collapse; }
+    th, td { border: 1px solid #ccc; padding: 4px 8px; }
+  </style>
+  </head>
+<body>
+  <h1>AtomizeJs Report</h1>
+  <p>Source: {{SOURCE}}</p>
+  <h2>Modules</h2>
+  <table>
+    <thead><tr><th>Module</th><th>Count</th><th>Approx Size (bytes)</th></tr></thead>
+    <tbody>
+    {{ROWS}}
+    </tbody>
+  </table>
+  <h2>Kept in Original</h2>
+  <ul>
+  {{ORIGINAL_LIST}}
+  </ul>
+</body>
+</html>
