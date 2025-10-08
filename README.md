@@ -1,6 +1,6 @@
 # Atomizer
 
-**Atomizer** is a robust tool for splitting (“atomizing”) large JavaScript files into smaller, manageable modules.
+Atomizer is a tool for analyzing and splitting large JavaScript files into smaller, manageable modules.
 
 ## Features
 
@@ -24,6 +24,12 @@
 3. Use the generated bridge/shim as your new entrypoint.
 4. Restore originals anytime from backups.
 
-## Industry Use
+## Use Cases
 
-Ideal for refactoring legacy JS, preparing for modularization, or auditing code structure.
+- Refactoring legacy or monolithic JS files into modular code.
+- Preparing codebases for modernization or migration.
+- Auditing code structure and dependencies.
+
+---
+
+*For more details, see the documentation or run the tool with your own JS files.*
